@@ -1,0 +1,28 @@
+
+# 官网注册账号
+访问 https：//www.npmjs.com/ 网站，点击 sign up 按钮，进入注册用户界面
+
+填写账号相关的信息：Full Name、 Public Email、 Username、 Password
+
+点击 Create an Account 按钮，注册账号
+
+
+# 终端登录
+```
+npm login
+```
+
+# 发布包
+
+cd 到项目包的根目录
+
+```
+npm publish
+```
+
+# 删除已经发布的包
+只在72小时内 发布的包
+
+```
+npm unpublish 包名 --force
+```
